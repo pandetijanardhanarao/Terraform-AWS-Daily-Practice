@@ -1,6 +1,6 @@
 resource "aws_security_group" "devops-project-veera" {
   name        = "devops-project-veera"
-  description = "Allow TLS inbound traffic"
+  description = "allow"
 
   ingress = [
     
